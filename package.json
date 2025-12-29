@@ -1,5 +1,5 @@
 {
-  "name": "@dev-team-tool/parameter-store",
+  "name": "@dev-team-tool/parameter-store-node",
   "version": "0.0.1",
   "description": "Library to access parameter-store from dev-team-tools.com programatically",
   "main": "./dist/index.cjs",
@@ -40,5 +40,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "@dev-team-tool/json-2-properties": "^1.1.2"
+  }
 }

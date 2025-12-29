@@ -1,2 +1,1 @@
 export { ParametersManager } from "./ParametersManager";
-export { Property } from "./types";
