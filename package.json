@@ -1,0 +1,44 @@
+{
+  "name": "@dev-team-tool/parameter-store",
+  "version": "0.0.1",
+  "description": "Library to access parameter-store from dev-team-tools.com programatically",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "jest",
+    "publish": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-team-tools/parameter-store-node.git"
+  },
+  "keywords": [
+    "feature-switches",
+    "dev-team-tools",
+    "developer"
+  ],
+  "author": "Harry Winser",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dev-team-tools/parameter-store-node/issues"
+  },
+  "homepage": "https://github.com/dev-team-tools/parameter-store-node#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "dist"
+  ]
+}
