@@ -1,6 +1,6 @@
 {
   "name": "@dev-team-tool/parameter-store-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Library to access parameter-store from dev-team-tools.com programatically",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -21,7 +21,7 @@
     "url": "git+https://github.com/dev-team-tools/parameter-store-node.git"
   },
   "keywords": [
-    "feature-switches",
+    "parameter-store",
     "dev-team-tools",
     "developer"
   ],
